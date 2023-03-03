@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-jlhb
     spec:
       containers:
-      - image: quay.io/redhat-appstudio/user-workload:rrqte-devfile-sample-jlhb
+      - image: quay.io/redhat-appstudio/user-workload@sha256:e94e1c7242e83720a6d7015fda8af692ba205e62f8055e075b7a464257fe51e8
         name: my-nodejs
         ports:
         - containerPort: 3001
